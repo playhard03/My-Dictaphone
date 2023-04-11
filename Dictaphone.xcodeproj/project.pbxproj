@@ -13,6 +13,7 @@
 		736E22C829E5AB370044509B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736E22C629E5AB370044509B /* Main.storyboard */; };
 		736E22CA29E5AB3C0044509B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736E22C929E5AB3C0044509B /* Assets.xcassets */; };
 		736E22CD29E5AB3C0044509B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736E22CB29E5AB3C0044509B /* LaunchScreen.storyboard */; };
+		736E22D629E5AEEF0044509B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E22D529E5AEEF0044509B /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		736E22C929E5AB3C0044509B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736E22CC29E5AB3C0044509B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736E22CE29E5AB3C0044509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736E22D529E5AEEF0044509B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		736E22BF29E5AB370044509B /* Dictaphone */ = {
 			isa = PBXGroup;
 			children = (
-				736E22C029E5AB370044509B /* AppDelegate.swift */,
-				736E22C229E5AB370044509B /* SceneDelegate.swift */,
+				736E22D429E5AB600044509B /* Resources */,
+				736E22D529E5AEEF0044509B /* Models.swift */,
 				736E22C429E5AB370044509B /* ViewController.swift */,
 				736E22C629E5AB370044509B /* Main.storyboard */,
+			);
+			path = Dictaphone;
+			sourceTree = "<group>";
+		};
+		736E22D429E5AB600044509B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				736E22C029E5AB370044509B /* AppDelegate.swift */,
+				736E22C229E5AB370044509B /* SceneDelegate.swift */,
 				736E22C929E5AB3C0044509B /* Assets.xcassets */,
 				736E22CB29E5AB3C0044509B /* LaunchScreen.storyboard */,
 				736E22CE29E5AB3C0044509B /* Info.plist */,
 			);
-			path = Dictaphone;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				736E22C529E5AB370044509B /* ViewController.swift in Sources */,
 				736E22C129E5AB370044509B /* AppDelegate.swift in Sources */,
 				736E22C329E5AB370044509B /* SceneDelegate.swift in Sources */,
+				736E22D629E5AEEF0044509B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +301,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8B3PT8N93L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Dictaphone/Info.plist;
+				INFOPLIST_FILE = Dictaphone/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +329,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8B3PT8N93L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Dictaphone/Info.plist;
+				INFOPLIST_FILE = Dictaphone/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
